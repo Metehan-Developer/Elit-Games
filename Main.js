@@ -176,6 +176,6 @@
     window.addEventListener('keydown', (e) => { if(e.key === "Insert") p.style.display = p.style.display === "none" ? "flex" : "none"; });
 
     // Başlangıç Bildirimi
-    sNotify("Elit Internal: Started");
+    sNotify("Elit Internal: Starting...");
 
 })();
