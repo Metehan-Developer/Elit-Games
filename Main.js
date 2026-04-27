@@ -38,7 +38,7 @@
     // 3. F12 & KONSOL KORUMASI (Anti-Tamper)
     window.addEventListener('keydown', (e) => {
         if (e.key === "F12" || (e.ctrlKey && e.shiftKey && (e.key === "I" || e.key === "J" || e.key === "C"))) {
-            showNotify("BLOCKED BY ELITHAN", errColor);
+            showNotify("BLOCKED BY Elit Internal", errColor);
         }
     });
 
@@ -67,7 +67,7 @@
     };
 
     // 5. BAŞLIK KİLİDİ
-    const tText = "Elit Internal";
+    const tText = "Elit Internal | Poxel.io";
     document.title = tText;
     Object.defineProperty(document, 'title', { get: () => tText, set: () => {}, configurable: false });
 
